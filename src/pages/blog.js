@@ -1,15 +1,17 @@
 import React from 'react'
 
+
 import BlogRoll from '../components/BlogRoll'
 
 class BlogIndexPage extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Latest Posts</h1>
+        <h1>Menna Eltaliawy</h1>
         <section>
           <div className="content">
-            <BlogRoll />
+  
+            <BlogRoll/>
           </div>
         </section>
       </React.Fragment>
