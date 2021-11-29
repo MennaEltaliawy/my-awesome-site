@@ -10,7 +10,6 @@ class BlogIndexPage extends React.Component {
         <h1>Menna Eltaliawy</h1>
         <section>
           <div className="content">
-  
             <BlogRoll/>
           </div>
         </section>

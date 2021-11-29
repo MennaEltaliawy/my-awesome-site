@@ -1,5 +1,5 @@
 ---
-path: blog/second-post/Ambitions.md
+path: /blog/Ambitions.md
 date: 2021-11-29T02:18:24.890Z
 title: ambitions
 ---

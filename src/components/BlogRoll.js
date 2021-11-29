@@ -19,20 +19,20 @@ class BlogRoll extends React.Component {
                 }`}
               >
                 <header>
-                  <p className="post-meta">
+                  <h1 className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
                       to={post.frontmatter.path}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <br/>
+              <br/></h1>
      
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
                     </span>
-                  </p>
+                  
                 </header>
               
               </article>
@@ -48,6 +48,7 @@ BlogRoll.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
     }),
+    
   }),
 };
 

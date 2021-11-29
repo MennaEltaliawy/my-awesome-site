@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 const Index = () => {
   return (
     <>
-     
+     <p><Link to ="/blog">Blogs</Link></p>
       
     </>)
 }
