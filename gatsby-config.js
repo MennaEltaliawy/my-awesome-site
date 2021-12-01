@@ -8,6 +8,12 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`
-  ]
+    `gatsby-transformer-remark`,
+     options, {
+    plugins: [
+      `gatsby-remark-prismjs`,
+    ]
+    }
+  ],
+ 
 }
